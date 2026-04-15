@@ -1,0 +1,43 @@
+--- Heart Disease Prediction Report ---
+Generated on: 2026-04-15 05:46:28
+
+Patient Features:
+- age: 50
+- sex: 1
+- cp: 3
+- trestbps: 120
+- chol: 200
+- fbs: 0
+- restecg: 1
+- thalach: 150
+- exang: 0
+- oldpeak: 1.0
+- slope: 2
+- ca: 0
+- thal: 3
+
+
+Prediction:
+Predicted Status: No Heart Disease
+Predicted Probability (of Heart Disease): 0.2058
+
+SHAP Explanation Summary:
+Base Value (Average Prediction): -0.2216
+
+Feature Contributions:
+Features pushing prediction higher (towards Heart Disease):
+- sex: 0.2318
+- slope: 0.1561
+- age: 0.1367
+- thalach: 0.0750
+- fbs: 0.0531
+- oldpeak: 0.0136
+- restecg: 0.0085
+- cp: 0.0065
+
+Features pushing prediction lower (away from Heart Disease):
+- trestbps: -0.1431
+- exang: -0.2360
+- chol: -0.2456
+- thal: -0.4892
+- ca: -0.6963
